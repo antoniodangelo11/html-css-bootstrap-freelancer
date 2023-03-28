@@ -1,0 +1,62 @@
+/* GENERAL SETTINGS */
+
+html {
+    --green: rgb(26,188,156);
+}
+
+/* HEADER */
+
+/* NAVBAR */
+
+nav {
+    height: 50px;
+    background-color: rgb(44,62,80);
+}
+
+/* JUMBO SECTION */
+
+
+.jumbo {
+    background-color: var(--green);
+    height: 300px;
+}
+
+.jumbo img {
+    aspect-ratio: 2 / 1;
+}
+
+/* MAIN */
+
+/* SECTION PORTFOLIO */
+
+.cards {
+    aspect-ratio: 2 / 1;
+    border-radius: 10px;
+}
+
+.bgcard_1 {
+    background-color: rgb(186,75,99);
+}
+
+.bgcard_2 {
+    background-color: rgb(30,164,182)
+}
+
+.bgcard_3 {
+    background-color: rgb(20,15,15);
+}
+
+.bgcard_4 {
+    background-color: rgb(28,131,193);
+}
+
+.bgcard_5 {
+    background-color: rgb(14,56,181);
+}
+
+.bgcard_6 {
+    background-color: rgb(204,178,163);
+}
+
+/* SECTION ABOUT */
+
