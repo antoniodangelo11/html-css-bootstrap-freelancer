@@ -4,6 +4,10 @@ html {
     --green: rgb(26,188,156);
 }
 
+.bkg_green {
+    background-color: var(--green);
+}
+
 /* HEADER */
 
 /* NAVBAR */
@@ -14,12 +18,6 @@ nav {
 }
 
 /* JUMBO SECTION */
-
-
-.jumbo {
-    background-color: var(--green);
-    height: 300px;
-}
 
 .jumbo img {
     aspect-ratio: 2 / 1;
@@ -59,4 +57,15 @@ nav {
 }
 
 /* SECTION ABOUT */
+
+
+
+/* SECTION CONTACT */
+
+li {
+    list-style: none;
+}
+
+/* FOOTER */
+
 
