@@ -23,49 +23,20 @@ nav {
     aspect-ratio: 2 / 1;
 }
 
-/* MAIN */
-
-/* SECTION PORTFOLIO */
-
-.cards {
-    aspect-ratio: 2 / 1;
-    border-radius: 10px;
-}
-
-.bgcard_1 {
-    background-color: rgb(186,75,99);
-}
-
-.bgcard_2 {
-    background-color: rgb(30,164,182)
-}
-
-.bgcard_3 {
-    background-color: rgb(20,15,15);
-}
-
-.bgcard_4 {
-    background-color: rgb(28,131,193);
-}
-
-.bgcard_5 {
-    background-color: rgb(14,56,181);
-}
-
-.bgcard_6 {
-    background-color: rgb(204,178,163);
-}
-
-/* SECTION ABOUT */
-
-
-
-/* SECTION CONTACT */
+/* SECTION CONTACT UP */
 
 li {
     list-style: none;
 }
 
+/* SECTION CONCTACT DOWN */
+
+.bkg_light_grey {
+    background-color: rgb(58,84,109);
+}
+
 /* FOOTER */
 
-
+footer {
+    background-color: rgb(44,62,80);
+}
