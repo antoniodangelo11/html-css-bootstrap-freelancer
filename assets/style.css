@@ -4,39 +4,26 @@ html {
     --green: rgb(26,188,156);
 }
 
-.bkg_green {
-    background-color: var(--green);
-}
-
-/* HEADER */
-
-/* NAVBAR */
-
-nav {
-    height: 50px;
+.bkg_grey {
     background-color: rgb(44,62,80);
 }
 
-/* JUMBO SECTION */
-
-.jumbo img {
-    aspect-ratio: 2 / 1;
+.bkg_green {
+    background-color: rgb(26,188,156);
 }
-
-/* SECTION CONTACT UP */
-
-li {
-    list-style: none;
-}
-
-/* SECTION CONCTACT DOWN */
 
 .bkg_light_grey {
     background-color: rgb(58,84,109);
 }
 
-/* FOOTER */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
 
-footer {
-    background-color: rgb(44,62,80);
+li {
+    list-style: none;
+}
+
+.jumbo img {
+    width: 200px;
 }
