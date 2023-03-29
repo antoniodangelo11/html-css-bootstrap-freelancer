@@ -20,7 +20,7 @@
   <body>
     <header>
         <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-md bkg_grey py-3">
+            <nav class="navbar navbar-expand-md bkg_grey py-3 fixed-top">
                 <div class="container">
                     <a class="navbar-brand text-white fw-bold fs-4" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toggler border-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
             </nav>
 
         <!-- JUMBO SECTION -->
-        <section class="bkg_green py-4 text-white text-center">
+        <section class="bkg_green py-5 mt-5 text-white text-center">
             <div class="container">
                 <div class="jumbo">
                     <img class="py-2" src="img/avatar.svg" alt="">
@@ -113,13 +113,14 @@
                 </div>
                 
                 <div class="row g-3">
-                    <div class="col-10 col-md-5 offset-1">
+                    <div class="col-8 col-md-5 offset-2 offset-md-1">
                         <p class="text-white fw-semibold">Freelancer is a free bootstrap theme created by Start    Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well optional LESS stylesheets for easy customization.</p>
                     </div>
-                    <div class="col-10 col-md-5 offset-1 offset-md-0">
+                    <div class="col-8 col-md-5 offset-2 offset-md-0">
                         <p class="text-white fw-semibold">Whether you're a student looking showcase your work, a professional looking attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                         </p>
                     </div>
+                    
                     <div class="text-center">
                         <a class="text-decoration-none text-white border border-white py-2 px-3 rounded text-center" href=""><i class="fa-solid fa-download"></i> Download</a>
                     </div>
@@ -131,7 +132,7 @@
         <section class="py-4" id="sec_contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
                         <div class="contact_title text-center">
                             <h2 class="fw-bold">CONTACT ME</h2>
                             <div><i class="fa-solid fa-star fs-1"></i></div>
@@ -139,15 +140,17 @@
                     </div>
                     
                     <!-- FORM -->
-                    <div class="col-12">
-                        <div class="">
-                            <ul>
-                                <li>Name</li>
-                                <li>Email Address</li>
-                                <li>Phone Number</li>
-                                <li>Message</li>
-                                <li><a href="">Send</a></li>
-                            </ul>
+                    <div class="col-8 col-md-10 offset-2 offset-md-1">
+                        <ul class="list-group list-group-flush fw-semibold py-3">
+                            <li class="list-group-item">Name</li>
+                            <li class="list-group-item">Email Address</li>
+                            <li class="list-group-item">Phone Number</li>
+                            <li class="list-group-item">Message</li>
+                            <li class="list-group-item"></li>
+                        </ul>
+
+                        <div class="py-2">
+                            <a class="text-decoration-none text-white py-2 px-3 rounded text-center bkg_green" href="">Send</a>
                         </div>
                     </div>
                 </div>
@@ -158,33 +161,33 @@
         <section class="bkg_light_grey py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 col-md-4">
                         <div class="text-center text-white">
-                            <h3 class="fw-bold">LOCATION</h3>
-                            <P>2215 John Daniel Drive Clark, MO 54243</P>
+                            <h3 class="fw-semibold fs-5">LOCATION</h3>
+                            <P class="fw-semibold fs-5">2215 John Daniel Drive Clark, MO 54243</P>
                         </div>
                     </div>
-                </div>
                 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center text-white">
-                            <h3 class="fw-bold">AROUND THE WEB</h3>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-google-plus-g"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                
+                
+                    <div class="col-12 col-md-4">
+                        <div class="text-center text-white py-4">
+                            <h3 class="fw-semibold fs-5">AROUND THE WEB</h3>
+                            <i class="fa-brands fa-facebook-f rounded-circle text-center border border-white p-2"></i>
+                            <i class="fa-brands fa-google-plus-g rounded-circle text-center border border-white p-2"></i>
+                            <i class="fa-brands fa-twitter rounded-circle text-center border border-white p-2"></i>
+                            <i class="fa-brands fa-linkedin-in rounded-circle text-center border border-white p-2"></i>
                         </div>
                     </div>
-                </div>
+                
                             
 
-                <div class="row">
-                    <div class="col-12">
+                
+                    <div class="col-12 col-md-4">
                         <div class="text-center text-white">
-                            <h3 class="fw-bold">ABOUT FREELANCER</h3>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by 
-                                <a href="">Start Bootstrap</a>.
+                            <h3 class="fw-semibold fs-5">ABOUT FREELANCER</h3>
+                            <p class="fw-bold fs-5">Freelance is a free to use, open source Bootstrap theme created by 
+                            <a class="text-decoration-none text-success fw-bold" href="">Start Bootstrap</a>.
                             </p>
                         </div>
                     </div>
@@ -195,9 +198,9 @@
 
     <footer>
         <!-- FOOTER -->
-        <section class="bkg_grey py-4">
+        <section class="bkg_grey py-5">
             <div class="container">
-                <div class="copyright d-flex justify-content-center align-items-center text-center text-white">
+                <div class="copyright d-flex justify-content-center align-items-center text-center text-white fw-semibold">
                 Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
                 </div>
             </div>
