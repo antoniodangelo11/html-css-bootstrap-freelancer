@@ -12,12 +12,54 @@
     background-color: rgb(58,84,109);
 }
 
+/* NAVBAR */
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
 }
 
+/*JUMBO SECTION */
+
 .jumbo img {
     width: 200px;
+}
+
+/* PORTFOLIO */
+
+.separator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-inline: auto;
+    color: rgb(255, 255, 255);
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex-grow: 1;
+    display: block;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+}
+
+.separator_dark {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-inline: auto;
+    color: rgb(0, 0, 0);
+}
+
+.separator_dark::before,
+.separator_dark::after {
+    content: "";
+    flex-grow: 1;
+    display: block;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 9px;
 }
 
 .cards_item:hover {
@@ -40,10 +82,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: ease 2s;
+    transition: ease 1s;
     border-radius: 10px;
 }
 
 .hidden:hover {
     opacity: 60%;
+}
+
+/* FORM */
+
+.form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    padding-inline: 0;
+}
+
+.btn {
+    background-color: rgb(26,188,156);
+}
+
+/* SECTION CONTACT DOWN */
+
+.socials .social {
+    width: 3em;
+    height: 3em;
+    flex-shrink: 0;
 }
