@@ -69,33 +69,51 @@
       
                 <div class="row gy-4">
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/cabin.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/cake.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/circus.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/game.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                       <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/safe.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div>
+                        <div class="cards_item rounded">
                             <img class="rounded w-100" src="img/submarine.png" alt="">
+                            <div class="hidden">
+                                <a href=""><i class="fa-solid fa-plus text-white"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,17 +159,25 @@
                     
                     <!-- FORM -->
                     <div class="col-8 col-md-10 offset-2 offset-md-1">
-                        <ul class="list-group list-group-flush fw-semibold py-3">
-                            <li class="list-group-item">Name</li>
-                            <li class="list-group-item">Email Address</li>
-                            <li class="list-group-item">Phone Number</li>
-                            <li class="list-group-item">Message</li>
-                            <li class="list-group-item"></li>
-                        </ul>
-
-                        <div class="py-2">
-                            <a class="text-decoration-none text-white py-2 px-3 rounded text-center bkg_green" href="">Send</a>
-                        </div>
+                        <form>
+                            <div class="mb-1">
+                              <label for="exampleInputEmail1" class="form-label">Name</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-1">
+                              <label for="exampleInputPassword1" class="form-label">Email Address</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-1">
+                                <label for="phone-number" class="form-label">Phone Number</label>
+                                <input type="phone-number" class="form-control" id="phone-number">
+                            </div>
+                            <div class="mt-5">
+                                <label for="text" class="form-label">Message</label>
+                                <input type="text" class="form-control" id="text">
+                            </div>
+                            <button type="submit" class="btn bkg_green text-white mt-2">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -173,10 +199,18 @@
                     <div class="col-12 col-md-4">
                         <div class="text-center text-white py-4">
                             <h3 class="fw-semibold fs-5">AROUND THE WEB</h3>
-                            <i class="fa-brands fa-facebook-f rounded-circle text-center border border-white p-2"></i>
-                            <i class="fa-brands fa-google-plus-g rounded-circle text-center border border-white p-2"></i>
-                            <i class="fa-brands fa-twitter rounded-circle text-center border border-white p-2"></i>
-                            <i class="fa-brands fa-linkedin-in rounded-circle text-center border border-white p-2"></i>
+                            <span class="rounded-circle text-center border border-white p-2 d-inline-block">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </span>
+                            <span class="rounded-circle text-center border border-white p-2 d-inline-block">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </span>
+                            <span class="rounded-circle text-center border border-white p-2 d-inline-block">
+                                <i class="fa-brands fa-twitter"></i>
+                            </span>
+                            <span class="rounded-circle text-center border border-white p-2 d-inline-block">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </span>
                         </div>
                     </div>
                 
